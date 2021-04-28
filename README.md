@@ -8,4 +8,19 @@ successful but it returns an outout indicating an error.
 
 ## Examples
 
+**Fail the worflow:**
+```
+- id: fail
+  runs: nforgeio-actions/test@master
+  with:
+    fail: true
+```
 
+**Fail with a custom message:**
+```
+- id: fail
+  runs: nforgeio-actions/test@master
+  with:
+    fail: true
+    message: "Something really BAD happened!"
+```
