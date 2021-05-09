@@ -32,7 +32,7 @@ Pop-Location
 
 # Load the inputs.
 
-$fail    = Get-ActionInputBool "fail" $true)
+$fail    = Get-ActionInputBool "fail" $true
 $message = Get-ActionInput "message" $true
 
 # All we need to do is to write the error message and return a non-zero exit code
