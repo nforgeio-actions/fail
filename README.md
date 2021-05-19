@@ -1,4 +1,4 @@
-# fail
+# fail-if
 
 **INTERNAL USE ONLY:** This GitHub action is not intended for general use.  The only reason 
 why this repo is public is because GitHub requires it.
@@ -10,7 +10,7 @@ successful but it returns an outout indicating an error.
 
 **Fail the worflow:**
 ```
-- id: fail
+- id: fail-if
   runs: nforgeio-actions/test@master
   with:
     fail: true
@@ -18,7 +18,7 @@ successful but it returns an outout indicating an error.
 
 **Fail with a custom message:**
 ```
-- id: fail
+- id: fail-if
   runs: nforgeio-actions/test@master
   with:
     fail: true
